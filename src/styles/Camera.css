@@ -1,0 +1,38 @@
+#camera video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  z-index: -99;
+}
+
+#colorButton {
+  color: var(--app-light-text-color);
+  background: var(--app-primary-color);
+  border: none;
+  text-transform: uppercase;
+  height: 36px;
+  min-width: 64px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+#colorButtonBlock {
+  position: fixed;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+canvas {
+  z-index: -9999;
+  visibility: hidden;
+}
